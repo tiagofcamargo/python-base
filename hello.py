@@ -1,8 +1,8 @@
-#!/usr/bin/python3
+#!/usr/bin/env/python3
 
 """Hello World Multi Linguas
 
-Dependendo da lingua configurada no ambiente o programa exibe a mensagem 
+Dependendo da lingua configurada no ambiente o programa exibe a mensagem
 correspondente.
 
 Como usar:
@@ -32,6 +32,6 @@ elif current_language == "it_IT":
 elif current_language == "es_SP":
     msg = "Hola, Mundo!"
 elif current_language == "fr_FR":
-    msg = "Bonjour Monde"
+    msg = "Bonjour Monde!"
 
 print(msg)
